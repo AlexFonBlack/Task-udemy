@@ -2,15 +2,9 @@
 
 //первое задание
 
-<<<<<<< HEAD
-let money = prompt ('Ваш бюджет за месяц?'),
-    time = prompt ('Введите дату в формате YYYY-MM-DD'),
-    appDate = {
-=======
 let money = +prompt ('Ваш бюджет за месяц?'),
     time = prompt ('Введите дату в формате YYYY-MM-DD');
 let appDate = {
->>>>>>> 665a1435af4c9ef3825f3a2e61b5f4b06e877578
     budget: money,
     timeData: time,
     expenses: {},
@@ -19,18 +13,6 @@ let appDate = {
     savings: false
 };
 
-<<<<<<< HEAD
-let costs = prompt ('Введите обязательную статью расходов в этом месяце'),
-    howMany = prompt ('Во сколько обойдётся');
-
-appDate.expenses[costs] = howMany;
-
-const totalNumberDay = 30;
-let budgetOfDay = (money - howMany) / totalNumberDay ;
-alert ('Ваш бюджет на день в ' + appDate.timeData + '  составляет: ' + budgetOfDay);
-console.log(appDate);
-console.log (budgetOfDay);
-=======
 console.log(appDate);
 
 //второе задание
@@ -100,4 +82,3 @@ if(appDate.moneyPerDay < 100){
 } else {
     console.log("произошла ошибка")
 }
->>>>>>> 665a1435af4c9ef3825f3a2e61b5f4b06e877578
